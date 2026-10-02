@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>OMP Control Room</title>
+<link rel="icon" href="./src/app/favicon.svg?v=2"/>
+
+</head>
+<body>
+<div id="app" class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="logo">π</div>
+      <div class="brand-text"><b>OMP</b><span>Control Room</span></div>
+      <span class="conn" id="conn" title="Connection"></span>
+    </div>
+    <button class="btn new-btn" id="newBtn"><span>＋</span> New session <kbd>Alt N</kbd></button>
+    <div class="search-wrap">
+      <input id="search" class="search" placeholder="Search sessions…" aria-label="Search sessions" autocomplete="off"/>
+      <kbd>/</kbd>
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filter sessions">
+      <button data-filter="all" class="on" aria-pressed="true">All</button>
+      <button data-filter="active" aria-pressed="false">Active</button>
+      <button data-filter="panel" aria-pressed="false">In panel</button>
+      <button data-filter="archived" aria-pressed="false">Archived</button>
+      <button id="groupBy" class="gb" title="Group by project" aria-label="Group by project" aria-pressed="false">▤</button>
+    </div>
+    <div class="session-list" id="list"></div>
+    <div class="sidebar-foot">
+      <a href="#/settings" title="Every OMP setting, editable">⚙ Settings</a>
+      <button class="link" id="disconnect">Disconnect</button>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" aria-hidden="true"></div>
+  <main class="main" id="main"></main>
+</div>
+<div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+<script src="%BASE_URL%app.js"></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
