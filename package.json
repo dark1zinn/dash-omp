@@ -1,0 +1,27 @@
+{
+  "name": ".mywrap.vitality-9136-5becc14c-e444-40b1-88b3-be57dd44b5d5-vitality",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit --noCheck"
+  },
+  "devDependencies": {
+    "vite": "8.2.2",
+    "typescript": "7.0.2"
+  },
+  "packageManager": "bun@1.4.0",
+  "vitality": {
+    "schemaVersion": 3,
+    "base": "/",
+    "assetsInlineLimit": "Infinity",
+    "generatedConfig": "vite.config.ts",
+    "sourceRoot": "src/app",
+    "sourceEntry": "local-dist/index.html",
+    "pages": 0,
+    "noPublic": true
+  }
+}

@@ -1,0 +1,5 @@
+
+# Generated Vite workspace
+node_modules/
+dist/
+.vite/

@@ -1,0 +1,10 @@
+{
+  "app.css": "src/app/app.css",
+  "src/app/app.css": "src/app/app.css",
+  "favicon.svg": "src/app/favicon.svg",
+  "src/app/favicon.svg": "src/app/favicon.svg",
+  "fonts/geist-latin-wght-normal.woff2": "src/app/fonts/geist-latin-wght-normal.woff2",
+  "src/app/fonts/geist-latin-wght-normal.woff2": "src/app/fonts/geist-latin-wght-normal.woff2",
+  "fonts/jetbrains-mono-latin-wght-normal.woff2": "src/app/fonts/jetbrains-mono-latin-wght-normal.woff2",
+  "src/app/fonts/jetbrains-mono-latin-wght-normal.woff2": "src/app/fonts/jetbrains-mono-latin-wght-normal.woff2"
+}
